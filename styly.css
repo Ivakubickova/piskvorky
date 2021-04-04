@@ -89,3 +89,18 @@ p {
 	background-color: #0090e9;
 }
 
+.Úvodní {
+	background-color:  #1fcca4;
+    margin-bottom: 2px;
+}
+.Úvodní:hover {
+	background-color: #1cbb96;
+}
+
+.Začít {
+	background-color: #0197f6;
+}
+
+.Začít:hover {
+	background-color: #0090e9;
+}
