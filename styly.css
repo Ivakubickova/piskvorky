@@ -50,6 +50,7 @@ h1 {
 p {
     color: white;
     text-align: center;
+    /*width: 1em; height: 1em*/
 }
 
 .tlacitka {
@@ -104,3 +105,5 @@ p {
 .Začít:hover {
 	background-color: #0090e9;
 }
+
+
