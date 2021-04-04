@@ -12,6 +12,11 @@ body {
 	font-size: 18px;
 	background-image: linear-gradient(#615dad, #ffc8da);
     background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%; 
+    background-attachment: fixed;
+    
 
  }
 
@@ -49,8 +54,12 @@ h1 {
 
 p {
     color: white;
+    text-align: left;
+    /*width: 1em; height: 1em;*/
+}
+
+.uvodni-text {
     text-align: center;
-    /*width: 1em; height: 1em*/
 }
 
 .tlacitka {
@@ -60,6 +69,7 @@ p {
     display: flex;
     flex-direction: column;
     width: 100%;
+    
     
 }
 
@@ -72,6 +82,7 @@ p {
 	text-decoration: none;
 	text-align: center;
 	color: #ffffff;
+    
 }
 
 .Pravidla {
@@ -104,6 +115,87 @@ p {
 
 .Začít:hover {
 	background-color: #0090e9;
+}
+
+
+.pravidla {
+    position: relative;
+	width: 450px;
+    /*height: auto;*/
+	margin: 100px auto 100px auto;
+	padding: 30px;
+	background-color: #283e50;
+	border-radius: 10px 10px 0 0;
+
+    
+}
+
+.nadpis-pravidla {
+    font-family: Lobster;
+	font-size: 60px;
+	margin-bottom: 20px;
+	color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.pravidla-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.figures {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    margin-top: 30px;
+
+}
+
+
+ 
+img { 
+    max-width: 100%;
+}
+
+.figure {
+    justify-content:center;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding: 15px;
+
+}
+
+
+@media screen and (min-width: 880px) {
+
+    .pravidla {
+        width: 880px;
+    }
+
+    .figures { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+
+    }
+
+    .figure {
+
+       flex-basis: calc((100% - 40px) / 2);
+       margin: 0;
+
+    }
 }
 
 
