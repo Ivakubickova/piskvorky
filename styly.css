@@ -51,6 +51,8 @@ h1 {
 }
 
 
+
+
 p {
     color: white;
     text-align: left;
@@ -150,7 +152,7 @@ p {
     margin-right: 20px;
 }
 
-.pravidla-text img {
+.pravidla-text img, .hra img {
 
     width: 1em; height: 1em;
 }
@@ -204,4 +206,106 @@ img {
     }
 }
 
+
+.kontejner {
+    display: flex;
+    justify-content: center;
+    padding-left: 10vmin;
+    
+}
+
+
+
+.hra {
+    max-width: 80vmin;
+    justify-content: center;
+    font-weight: bold;
+    
+    
+    
+}
+
+
+.hra__nadpis {
+    margin-top: 50px;
+    font-size: 12vmin;
+
+}
+
+.hra__ikonky {
+
+    position: relative;
+    font-size: 4vmin;
+
+    
+    
+}
+
+.hra__ikonky--vpravo {
+ position: absolute;
+ top: 0;
+ right: 10px;
+
+}
+
+.ikonka__home, .ikonka__restart {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    width: 7vmin;
+    height: 7vmin;
+}
+
+.ikonka__home {
+
+    background-color:  #1fcca4;
+}
+
+.ikonka__home:hover,
+.ikonka__home:focus {
+    background-color: #1cbb96;
+    
+
+}
+
+
+.ikonka__restart {
+
+    background-color: #0197f6;
+}
+
+.ikonka__restart:hover,
+.ikonka__restart:focus {
+    background-color: #0090e9;
+}
+
+
+
+.hra__policka {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 5px 1px rgba(17, 16, 16, 0.4);
+
+}
+
+.hra__policka button {
+  border: 1px solid rgb(20, 18, 18);
+  background-color: rgba(111, 90, 112, 0.3);
+  /*flex-basis: 10%;
+  padding: 27px;
+  width: 10%;*/
+
+  width: 8vmin;
+  height: 8vmin; 
+  cursor: pointer; 
+}
+
+
+.hra__policka button:hover,
+.hra__policka button:focus {
+
+    background-color:rgba(163, 105, 136, 0.3);
+
+}
 
