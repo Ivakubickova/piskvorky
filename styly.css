@@ -295,7 +295,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     box-shadow: 1px 1px 5px 1px rgba(17, 16, 16, 0.4);
-  
+   
 }
 
 .hra__policka button {
@@ -309,9 +309,12 @@ img {
   height: 8vmin; 
   cursor: pointer; 
   background-position: center;
-  transition: 0.15s;
   
-
+  
+}
+.policko {
+    transition: background-size 0.15s;
+    background-size: 0%;
   
 }
 
