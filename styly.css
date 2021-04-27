@@ -295,7 +295,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     box-shadow: 1px 1px 5px 1px rgba(17, 16, 16, 0.4);
-
+  
 }
 
 .hra__policka button {
@@ -308,6 +308,11 @@ img {
   width: 8vmin;
   height: 8vmin; 
   cursor: pointer; 
+  background-position: center;
+  transition: 0.15s;
+  
+
+  
 }
 
 
@@ -317,4 +322,23 @@ img {
     background-color:rgba(163, 105, 136, 0.3);
 
 }
+
+.board__field--circle {
+    background-image: url(images/circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%; 
+    
+}
+  
+  
+  .board__field--cross {
+    background-image: url(images/cross.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    
+  
+
+  }
 
